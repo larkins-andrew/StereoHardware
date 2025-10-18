@@ -1,4 +1,4 @@
-27176383188478199
+27294624169250482
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -67577,6 +67577,314 @@ solder jumper open
 0
 3
 3
+KiCad_Battery
+BatteryHolder_Bulgin_BX0036_1xC
+Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
+Bulgin BX0036
+0
+2
+2
+KiCad_Battery
+BatteryHolder_ComfortableElectronic_CH273-2450_1x2450
+Comfortable Electronic CR2450 battery holder, http://www.comf.com.tw/ProductDetail.asp?no=148
+Comfortable Electronic CR2450
+0
+2
+2
+KiCad_Battery
+BatteryHolder_Eagle_12BH611-GR
+https://eu.mouser.com/datasheet/2/209/EPD-200766-1274481.pdf
+9V Battery Holder
+0
+2
+2
+KiCad_Battery
+BatteryHolder_Keystone_103_1x20mm
+http://www.keyelco.com/product-pdf.cfm?p=719
+Keystone type 103 battery holder
+0
+2
+2
+KiCad_Battery
+BatteryHolder_Keystone_104_1x23mm
+http://www.keyelco.com/product-pdf.cfm?p=744
+Keystone type 104 battery holder
+0
+2
+2
+KiCad_Battery
+BatteryHolder_Keystone_105_1x2430
+http://www.keyelco.com/product-pdf.cfm?p=745
+Keystone type 105 battery holder
+0
+2
+2
+KiCad_Battery
+BatteryHolder_Keystone_106_1x20mm
+http://www.keyelco.com/product-pdf.cfm?p=720
+Keystone type 106 battery holder
+0
+2
+2
+KiCad_Battery
+BatteryHolder_Keystone_107_1x23mm
+http://www.keyelco.com/product-pdf.cfm?p=746
+Keystone type 107 battery holder
+0
+2
+2
+KiCad_Battery
+BatteryHolder_Keystone_500
+Keystone #500, CR1220 battery holder, http://www.keyelco.com/product-pdf.cfm?p=710
+CR1220 battery holder
+0
+2
+2
+KiCad_Battery
+BatteryHolder_Keystone_1042_1x18650
+Battery holder for 18650 cylindrical cells http://www.keyelco.com/product.cfm/product_id/918
+18650 Keystone 1042 Li-ion
+0
+2
+2
+KiCad_Battery
+BatteryHolder_Keystone_1058_1x2032
+http://www.keyelco.com/product-pdf.cfm?p=14028
+Keystone type 1058 coin cell retainer
+0
+2
+2
+KiCad_Battery
+BatteryHolder_Keystone_1060_1x2032
+http://www.keyelco.com/product-pdf.cfm?p=726
+CR2032 BR2032 BatteryHolder Battery
+0
+2
+2
+KiCad_Battery
+BatteryHolder_Keystone_2460_1xAA
+https://www.keyelco.com/product-pdf.cfm?p=1025
+AA battery cell holder
+0
+2
+2
+KiCad_Battery
+BatteryHolder_Keystone_2462_2xAA
+2xAA cell battery holder, Keystone P/N 2462, https://www.keyelco.com/product-pdf.cfm?p=1027
+AA battery cell holder
+0
+2
+2
+KiCad_Battery
+BatteryHolder_Keystone_2466_1xAAA
+1xAAA Battery Holder, Keystone, Plastic Case, http://www.keyelco.com/product-pdf.cfm?p=1031
+AAA battery holder Keystone
+0
+2
+2
+KiCad_Battery
+BatteryHolder_Keystone_2468_2xAAA
+2xAAA cell battery holder, Keystone P/N 2468, http://www.keyelco.com/product-pdf.cfm?p=1033
+AAA battery cell holder
+0
+2
+2
+KiCad_Battery
+BatteryHolder_Keystone_2479_3xAAA
+Keystone Battery Holder, 2479, Battery Type 3xAAA (Script generated with StandardBox.py) (Keystone Battery Holder, 2479, Battery Type 3xAAA)
+Keystone Battery Holder 2479 Battery Type 3xAAA
+0
+2
+2
+KiCad_Battery
+BatteryHolder_Keystone_2993
+http://www.keyelco.com/product-pdf.cfm?p=776
+Keystone type 2993 negative battery contact
+0
+1
+1
+KiCad_Battery
+BatteryHolder_Keystone_2998_1x6.8mm
+www.keyelco.com/product-pdf.cfm?p=763
+Keystone type 2998 battery holder
+0
+3
+2
+KiCad_Battery
+BatteryHolder_Keystone_3000_1x12mm
+http://www.keyelco.com/product-pdf.cfm?p=777
+Keystone type 3000 coin cell retainer
+0
+3
+2
+KiCad_Battery
+BatteryHolder_Keystone_3001_1x12mm
+http://www.keyelco.com/product-pdf.cfm?p=778
+Keystone type 3001 coin cell retainer
+0
+3
+2
+KiCad_Battery
+BatteryHolder_Keystone_3002_1x2032
+https://www.tme.eu/it/Document/a823211ec201a9e209042d155fe22d2b/KEYS2996.pdf
+BR2016 CR2016 DL2016 BR2020 CL2020 BR2025 CR2025 DL2025 DR2032 CR2032 DL2032
+0
+3
+2
+KiCad_Battery
+BatteryHolder_Keystone_3008_1x2450
+http://www.keyelco.com/product-pdf.cfm?p=786
+Keystone type 3008 coin cell retainer
+0
+3
+2
+KiCad_Battery
+BatteryHolder_Keystone_3009_1x2450
+http://www.keyelco.com/product-pdf.cfm?p=787
+Keystone type 3009 coin cell retainer
+0
+3
+2
+KiCad_Battery
+BatteryHolder_Keystone_3034_1x20mm
+Keystone 3034 SMD battery holder for 2020, 2025 and 2032 coincell batteries. http://www.keyelco.com/product-pdf.cfm?p=798
+Keystone type 3034 coin cell retainer
+0
+3
+2
+KiCad_Battery
+BatteryHolder_LINX_BAT-HLD-012-SMT
+SMT battery holder for CR1216/1220/1225, https://linxtechnologies.com/wp/wp-content/uploads/bat-hld-012-smt.pdf
+battery holder coin cell cr1216 cr1220 cr1225
+0
+3
+2
+KiCad_Battery
+BatteryHolder_MPD_BA9VPC_1xPP3
+1xPP3 (9V) battery holder, Memory Protection Devices P/N BA9VPC, http://www.memoryprotectiondevices.com/datasheets/BA9VPC-datasheet.pdf
+PP3 Battery Holder BA9VPC 9V
+0
+2
+2
+KiCad_Battery
+BatteryHolder_MPD_BC2AAPC_2xAA
+2xAA cell battery holder, Memory Protection Devices P/N BC2AAPC, http://www.memoryprotectiondevices.com/datasheets/BC2AAPC-datasheet.pdf
+AA battery cell holder
+0
+2
+2
+KiCad_Battery
+BatteryHolder_MPD_BC12AAPC_2xAA
+2xAA cell battery holder, Memory Protection Devices P/N BC12AAPC, http://www.memoryprotectiondevices.com/datasheets/BC12AAPC-datasheet.pdf
+AA battery cell holder
+0
+2
+2
+KiCad_Battery
+BatteryHolder_MPD_BC2003_1x2032
+http://www.memoryprotectiondevices.com/datasheets/BC-2003-datasheet.pdf
+BC2003 CR2032 2032 Battery Holder
+0
+3
+2
+KiCad_Battery
+BatteryHolder_MPD_BH-18650-PC2
+18650 Battery Holder (http://www.memoryprotectiondevices.com/datasheets/BK-18650-PC2-datasheet.pdf)
+18650 Battery Holder
+0
+2
+2
+KiCad_Battery
+BatteryHolder_Seiko_MS621F
+Seiko MS621F, https://www.sii.co.jp/en/me/files/2014/02/file_EXTENDED_PRDCT_SPEC_75_FILE_11.jpg
+Seiko MS621F
+0
+2
+2
+KiCad_Battery
+BatteryHolder_TruPower_BH-331P_3xAA
+Keystone Battery Holder BH-331P Battery Type 3xAA (Script generated with StandardBox.py) (Keystone Battery Holder BH-331P Battery Type 3xAA)
+Battery Holder BH-331P Battery Type 3xAA
+0
+2
+2
+KiCad_Battery
+Battery_CR1225
+CR1225 battery
+battery CR1225 coin cell
+0
+0
+0
+KiCad_Battery
+Battery_CR2032
+
+
+0
+0
+0
+KiCad_Battery
+Battery_Panasonic_CR1025-VSK_Vertical_CircularHoles
+Panasonic CR-1025/VSK battery
+battery CR-1025 coin cell vertical
+0
+2
+2
+KiCad_Battery
+Battery_Panasonic_CR1220-VCN_Vertical_CircularHoles
+Panasonic CR-1220/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D140.PDF
+battery CR-1220 coin cell vertical
+0
+2
+2
+KiCad_Battery
+Battery_Panasonic_CR1632-V1AN_Vertical_CircularHoles
+Panasonic CR-1632-V1AN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D464.PDF
+battery CR-1632 coin cell vertical
+0
+2
+2
+KiCad_Battery
+Battery_Panasonic_CR2025-V1AK_Vertical_CircularHoles
+Panasonic CR-2025/V1AK battery,
+battery CR-2025 coin cell vertical
+0
+2
+2
+KiCad_Battery
+Battery_Panasonic_CR2032-VS1N_Vertical_CircularHoles
+Panasonic CR-2032/VS1N battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D348.PDF
+battery CR-2032 coin cell vertical
+0
+2
+2
+KiCad_Battery
+Battery_Panasonic_CR2354-VCN_Vertical_CircularHoles
+Panasonic CR-2354/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D486.PDF
+battery CR-2354/VCN coin cell vertical
+0
+2
+2
+KiCad_Battery
+Battery_Panasonic_CR2450-VAN_Vertical_CircularHoles
+Panasonic CR-2450/VAN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D492.PDF
+battery CR-2450 coin cell
+0
+2
+2
+KiCad_Battery
+Battery_Panasonic_CR2477-VCN_Vertical_CircularHoles
+Panasonic CR-2477/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D502.PDF
+battery CR-2477 coin cell vertical
+0
+2
+2
+KiCad_Battery
+Battery_Panasonic_CR3032-VCN_Vertical_CircularHoles
+Panasonic CR-3032/VCN battery, https://industrial.panasonic.com/cdbs/www-data/pdf2/AAA4000/AAA4000D508.PDF
+battery CR-3032 coin cell vertical
+0
+2
+2
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -71763,6 +72071,34 @@ net tie
 0
 4
 4
+Nokia_5110-3310_LCD
+Nokia_5110-3310_LCD
+
+
+0
+15
+9
+Nokia_5110-3310_LCD
+Nokia_5110-3310_LCD-B.Paste
+
+
+0
+15
+9
+Nokia_5110-3310_LCD
+Nokia_5110-3310_LCD-F.Paste
+
+
+0
+15
+9
+Nokia_5110-3310_LCD
+Nokia_5110-3310_LCD-F.Paste-B.Paste
+
+
+0
+15
+9
 OptoDevice
 ADNS-9800
 Laser Gaming Sensor ADNS-9800
@@ -75915,6 +76251,27 @@ ArtInChip QFN NoLead
 127
 101
 Package_DFN_QFN
+CDFN-4_2.5x3.2mm_P2.1mm
+CDFN, 4 Pin (https://ww1.microchip.com/downloads/aemDocuments/documents/TCG/ProductDocuments/DataSheets/DSC1001-3-4-1.8V-3.3V-Low-Power-Precision-CMOS-Oscillators-DS20005529.pdf#page=16), generated with kicad-footprint-generator ipc_noLead_generator.py
+CDFN NoLead Microchip-DFN3225-4LD-PL-1
+0
+4
+4
+Package_DFN_QFN
+CDFN-4_2x2.5mm_P1.65mm
+CDFN, 4 Pin (https://ww1.microchip.com/downloads/aemDocuments/documents/TCG/ProductDocuments/DataSheets/DSC1001-3-4-1.8V-3.3V-Low-Power-Precision-CMOS-Oscillators-DS20005529.pdf#page=17), generated with kicad-footprint-generator ipc_noLead_generator.py
+CDFN NoLead Microchip-DFN2520-4LD-PL-1
+0
+4
+4
+Package_DFN_QFN
+CDFN-4_3.2x5mm_P2.54mm
+CDFN, 4 Pin (https://ww1.microchip.com/downloads/aemDocuments/documents/TCG/ProductDocuments/DataSheets/DSC1001-3-4-1.8V-3.3V-Low-Power-Precision-CMOS-Oscillators-DS20005529.pdf#page=15), generated with kicad-footprint-generator ipc_noLead_generator.py
+CDFN NoLead Microchip-DFN5032-4LD-PL-1
+0
+4
+4
+Package_DFN_QFN
 Cypress_QFN-56-1EP_8x8mm_P0.5mm_EP6.22x6.22mm_ThermalVias
 56-Lead Plastic Quad Flat, No Lead Package (ML) - 8x8x0.9 mm Body [QFN] (see datasheet at http://www.cypress.com/file/138911/download and app note at http://www.cypress.com/file/140006/download)
 QFN 0.5
@@ -78841,6 +79198,13 @@ QFN 0.5
 31
 21
 Package_DFN_QFN
+TDFN-6-1EP_1.2x1.2mm_P0.4mm_EP0.3x0.94mm
+TDFN, 6 Pin (http://ww1.microchip.com/downloads/en/DeviceDoc/MIC5528.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+TDFN NoLead
+0
+8
+7
+Package_DFN_QFN
 TDFN-6-1EP_2.5x2.5mm_P0.65mm_EP1.3x2mm
 TDFN, 6 Pin (http://www.nve.com/Downloads/ab3.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
 TDFN NoLead
@@ -79802,6 +80166,20 @@ Texas WQFN NoLead
 Package_DFN_QFN
 Texas_RUM0016A_WQFN-16-1EP_4x4mm_P0.65mm_EP2.6x2.6mm_ThermalVias
 Texas RUM0016A WQFN, 16 Pin (http://www.ti.com/lit/ds/symlink/lmh0074.pdf#page=13), generated with kicad-footprint-generator ipc_noLead_generator.py
+Texas WQFN NoLead
+0
+31
+17
+Package_DFN_QFN
+Texas_RUM0016E_WQFN-16-1EP_4x4mm_P0.65mm_EP2.5x2.5mm
+Texas RUM0016E WQFN, 16 Pin (https://www.ti.com/lit/ml/qfnd679/qfnd679.pdf?ts=1756465079919), generated with kicad-footprint-generator ipc_noLead_generator.py
+Texas WQFN NoLead
+0
+21
+17
+Package_DFN_QFN
+Texas_RUM0016E_WQFN-16-1EP_4x4mm_P0.65mm_EP2.5x2.5mm_ThermalVias
+Texas RUM0016E WQFN, 16 Pin (https://www.ti.com/lit/ml/qfnd679/qfnd679.pdf?ts=1756465079919), generated with kicad-footprint-generator ipc_noLead_generator.py
 Texas WQFN NoLead
 0
 31
@@ -108184,3 +108562,59 @@ Varistor VF
 0
 2
 2
+scroll_wheel
+ScrollWheel-16-35x12mm-MinWorks_1
+
+
+0
+16
+16
+scroll_wheel
+ScrollWheel-16-40x20mm-MinWorks
+
+
+0
+0
+0
+scroll_wheel
+ScrollWheel-35x12mm
+
+
+0
+8
+8
+scroll_wheel
+ScrollWheel-40x12mm
+
+
+0
+4
+4
+scroll_wheel
+ScrollWheel-40x12mm-8cells
+
+
+0
+8
+8
+scroll_wheel
+ScrollWheel-40x16mm-centerPad
+
+
+0
+5
+5
+scroll_wheel
+ScrollWheel-40x20mm
+
+
+0
+4
+4
+scroll_wheel
+ScrollWheel-40x20mm-centerButton-12mm
+
+
+0
+8
+8
