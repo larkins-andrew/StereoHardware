@@ -1,4 +1,11 @@
-27294624169250482
+27305205578518102
+1.54_IPS_LCD_Adafruit
+1.54_IPS_LCD
+
+
+0
+0
+0
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +20,13 @@ audio belton reverb
 0
 7
 7
+BQ24232HARGTR
+QFN50P300X300X100-17N
+
+
+0
+22
+22
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -69138,6 +69152,13 @@ Yellow 5381 Series LED
 0
 2
 2
+MMUN2133LT1G
+SOT95P240X111-3N
+
+
+0
+3
+3
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -98665,6 +98686,13 @@ SparkFun
 4
 4
 SparkFun-Connector
+Untitled
+
+
+0
+0
+0
+SparkFun-Connector
 microSD_External_Pin
 
 SparkFun
@@ -108618,3 +108646,17 @@ ScrollWheel-40x20mm-centerButton-12mm
 0
 8
 8
+scroll_wheel
+Untitled
+
+
+0
+0
+0
+scroll_wheel
+Untitled_1
+
+
+0
+0
+0
