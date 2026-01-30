@@ -16,7 +16,7 @@
 			(justify left bottom)
 		)
 	)
-	(property "Value" ""
+	(property "Value" "Val**"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "d1f29726-8259-4346-9a21-7f66ca502270")

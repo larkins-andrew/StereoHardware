@@ -6,7 +6,7 @@
 	(paper "User" 455.651 299.872)
 	(lib_symbols)
 	(sheet
-		(at 119.38 83.82)
+		(at 119.38 85.09)
 		(size 71.12 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22,16 +22,18 @@
 		)
 		(uuid "2a7f479d-c6b3-45ca-8e30-62d06f466acd")
 		(property "Sheetname" "stereoBoy_display"
-			(at 119.38 83.1084 0)
+			(at 119.38 84.3784 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 3.81 3.81)
+					(thickness 0.762)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "stereoBoy_display.kicad_sch"
-			(at 119.38 128.8546 0)
+			(at 119.38 130.1246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -67,7 +69,9 @@
 			(at 41.91 31.0384 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 3.81 3.81)
+					(thickness 0.762)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
@@ -106,7 +110,7 @@
 		)
 	)
 	(sheet
-		(at 41.91 135.89)
+		(at 41.91 138.43)
 		(size 71.12 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -122,16 +126,18 @@
 		)
 		(uuid "40c4c27c-19ca-4c41-9f62-70a21e578a99")
 		(property "Sheetname" "stereoBoy_input"
-			(at 41.91 135.1784 0)
+			(at 41.91 137.7184 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 3.81 3.81)
+					(thickness 0.762)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "stereoBoy_input.kicad_sch"
-			(at 41.91 180.9246 0)
+			(at 41.91 183.4646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -167,7 +173,9 @@
 			(at 119.38 31.0384 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 3.81 3.81)
+					(thickness 0.762)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
@@ -190,7 +198,7 @@
 		)
 	)
 	(sheet
-		(at 41.91 83.82)
+		(at 41.91 85.09)
 		(size 71.12 44.45)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -206,16 +214,18 @@
 		)
 		(uuid "d8b168be-3dd8-4c54-8f23-7e4e334f5165")
 		(property "Sheetname" "stereoBoy_cpu"
-			(at 41.91 83.1084 0)
+			(at 41.91 84.3784 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 3.81 3.81)
+					(thickness 0.762)
+					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
 		(property "Sheetfile" "stereoBoy_cpu.kicad_sch"
-			(at 41.91 128.8546 0)
+			(at 41.91 130.1246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
