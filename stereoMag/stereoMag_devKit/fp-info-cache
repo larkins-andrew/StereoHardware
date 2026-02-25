@@ -1,4 +1,11 @@
-27835363185489618
+27858366362832109
+1.54_IPS_LCD_Adafruit
+1.54_IPS_FPC_Solder
+
+
+0
+12
+12
 1.54_IPS_LCD_Adafruit
 1.54_IPS_LCD
 
@@ -20,6 +27,13 @@ Untitled
 0
 0
 0
+6.8mm_batt_holder
+6.8mm_batt_holder
+
+
+0
+3
+3
 AT42QT2120_SU
 SOIC20-W_MC_MCH
 
@@ -2883,6 +2897,13 @@ speaker CUI
 0
 2
 2
+CREE_LED_2mm_x_2mm_Common_Anode
+CREE_LED_2mm_x_2mm_Common_Anode
+
+
+0
+4
+4
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -62549,8 +62570,8 @@ GameBoy_DPad
 
 
 0
-5
-3
+4
+2
 GameBoy_ButtonPads
 GameBoy_Select_Start
 
@@ -70685,6 +70706,20 @@ LM3671
 0
 5
 5
+MIN_WORKS
+GBP_Power_Switch
+
+
+0
+6
+6
+MS621FE_FL11E
+MS621FE_FL11E
+
+
+0
+2
+2
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -74829,6 +74864,34 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PCM2707PJTR
+PJT32_TEX
+
+PCM2707PJTR 
+0
+32
+32
+PCM2707PJTR
+PJT32_TEX-L
+
+PCM2707PJTR 
+0
+32
+32
+PCM2707PJTR
+PJT32_TEX-M
+
+PCM2707PJTR 
+0
+32
+32
+PCM5242RHBR
+PCM5242RHBR
+
+PCM5242RHBR 
+0
+49
+34
 Package_BGA
 Alliance_TFBGA-36_6x8mm_Layout6x8_P0.75mm
 Alliance TFBGA-36, NSMD, 6.0x8.0mm, 36 Ball, 6x8 Layout, 0.75mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1008_Mar_2023V1.2.pdf#page=13
@@ -95066,6 +95129,13 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
+RK10J11R0A0L
+RK10J11R0A0L
+RK10J11R0A0L-2
+Variable Resistor
+0
+9
+9
 Relay_SMD
 Relay_2P2T_10x6mm_TE_IMxxG
 Signal Relay, 10x6mm, 2 Form C, Gull Wings, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F108-98001%7FZ.1%7Fpdf%7FEnglish%7FENG_DS_108-98001_Z.1.pdf
@@ -97390,6 +97460,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+SJ_43514
+SJ_43514
+
+
+0
+4
+4
 Sensor
 ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
@@ -103494,6 +103571,13 @@ Logo WEEE
 0
 0
 0
+TLV320DAC3100
+TLV320DAC3100
+
+
+0
+38
+38
 TPS61030RSAR
 TPS61030RSAR
 
@@ -109703,6 +109787,13 @@ igbt diode module
 0
 25
 25
+USB-A-SMD-SHORT
+USB-A-SMD-SHORT
+
+
+0
+8
+8
 VS1053b
 VS1053b
 

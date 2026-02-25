@@ -773,7 +773,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Memory_Flash:W25Q16JVSS"
+		(symbol "Memory_Flash:AT25SF081-SSHD-X"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -785,15 +785,24 @@
 					)
 				)
 			)
-			(property "Value" "W25Q16JVSS"
-				(at 7.62 11.43 0)
+			(property "Value" "AT25SF081-SSHD-X"
+				(at 11.43 11.43 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -802,7 +811,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.winbond.com/hq/support/documentation/levelOne.jsp?__locale=en&DocNo=DA00-W25Q16JV.1"
+			(property "Description" "8-Mbit, 2.5V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-8"
 				(at 0 0 0)
 				(effects
 					(font
@@ -811,7 +820,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "16Mbit / 2MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8 (208 mil)"
+			(property "ki_keywords" "SPI DSPI QSPI 8Mbit 2.5V"
 				(at 0 0 0)
 				(effects
 					(font
@@ -820,7 +829,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "flash memory SPI"
+			(property "ki_fp_filters" "SOIC?8*3.9x4.9mm*P1.27mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -829,19 +838,10 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "*SOIC*5.3x5.3mm*P1.27mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "W25Q16JVSS_0_1"
+			(symbol "AT25SF081-SSHD-X_0_1"
 				(rectangle
 					(start -7.62 10.16)
-					(end 10.16 -10.16)
+					(end 7.62 -10.16)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -851,7 +851,7 @@
 					)
 				)
 			)
-			(symbol "W25Q16JVSS_1_1"
+			(symbol "AT25SF081-SSHD-X_1_1"
 				(pin input line
 					(at -10.16 7.62 0)
 					(length 2.54)
@@ -873,7 +873,7 @@
 				(pin input line
 					(at -10.16 5.08 0)
 					(length 2.54)
-					(name "CLK"
+					(name "SCK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -891,7 +891,7 @@
 				(pin bidirectional line
 					(at -10.16 2.54 0)
 					(length 2.54)
-					(name "DI/IO_{0}"
+					(name "SI/IO0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -909,7 +909,7 @@
 				(pin bidirectional line
 					(at -10.16 0 0)
 					(length 2.54)
-					(name "DO/IO_{1}"
+					(name "SO/IO1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -927,7 +927,7 @@
 				(pin bidirectional line
 					(at -10.16 -2.54 0)
 					(length 2.54)
-					(name "~{WP}/IO_{2}"
+					(name "~{WP}/IO2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -945,7 +945,7 @@
 				(pin bidirectional line
 					(at -10.16 -5.08 0)
 					(length 2.54)
-					(name "~{HOLD}/~{RESET}/IO_{3}"
+					(name "~{HOLD}/IO3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1218,6 +1218,232 @@
 						)
 					)
 					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Memory_RAM:APS1604M-3SQRx-SN"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "APS1604M-3SQRx-SN"
+				(at 11.684 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.mouser.com/datasheet/2/1127/APM_PSRAM_QSPI_APS1604M_3SQR_v2_7_PKG-1954896.pdf"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "16 Mbit / 2M x 8-bits serial pseudo SRAM MEMORY, up to 133MHz, 2.7-3.6V supply, SOIC-8 (SOP-8)"
+				(at 0 -20.32 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "qspi qpi spi psram"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "APS1604M-3SQRx-SN_0_1"
+				(rectangle
+					(start -7.62 10.16)
+					(end 7.62 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "APS1604M-3SQRx-SN_1_1"
+				(pin input line
+					(at -10.16 7.62 0)
+					(length 2.54)
+					(name "~{CE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "SI/SIO0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "SO/SIO1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "SIO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "SIO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 12.7 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2671,267 +2897,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SparkFun-Switch:SPDT_Slide_SMD_6.7x2.6mm"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SPDT_Slide_SMD_6.7x2.6mm"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "SparkFun-Switch:Slide_SPST_SMD_6.7x2.6mm"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cus.pdf"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switch, single pole double throw"
-				(at 0 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "PROD_ID" "SWCH-10651"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mrg Part#" "CUS-12B"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "SparkFun switch single-pole double-throw spdt ON-ON"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SPDT_Slide_SMD_6.7x2.6mm_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SPDT_Slide_SMD_6.7x2.6mm_0_1"
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.651 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SPDT_Slide_SMD_6.7x2.6mm_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 15.24 2.54 180)
-					(length 2.54)
-					(hide yes)
-					(name "MT1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MT1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 15.24 0 180)
-					(length 2.54)
-					(hide yes)
-					(name "MT2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MT2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 15.24 -2.54 180)
-					(length 2.54)
-					(hide yes)
-					(name "MT3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MT3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 15.24 -5.08 180)
-					(length 2.54)
-					(hide yes)
-					(name "MT4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "MT4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -3291,6 +3256,12 @@
 		(uuid "09e5e69f-8195-470d-a431-3f13c7d1bcfd")
 	)
 	(junction
+		(at 223.52 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0eadc15d-b702-40bd-9493-a36982b395c4")
+	)
+	(junction
 		(at 90.17 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3313,6 +3284,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea1a5b1c-d7d0-4ab2-b300-745e35298a5d")
+	)
+	(junction
+		(at 233.68 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f6ae0d60-d624-44b9-9c0a-435632cd5da8")
 	)
 	(wire
 		(pts
@@ -3386,6 +3363,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 107.95) (xy 223.52 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35ba458c-bbd1-4992-90a0-da464ef0e194")
+	)
+	(wire
+		(pts
 			(xy 82.55 31.75) (xy 82.55 35.56)
 		)
 		(stroke
@@ -3393,6 +3380,16 @@
 			(type default)
 		)
 		(uuid "4a59b0d0-7ab9-426b-9a84-19747d0dac0a")
+	)
+	(wire
+		(pts
+			(xy 223.52 113.03) (xy 233.68 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d77fe1c-71be-4e38-b118-da252c16a100")
 	)
 	(wire
 		(pts
@@ -3496,6 +3493,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 105.41) (xy 223.52 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a9ecd0f-1098-4e19-9014-976e145e2f4c")
+	)
+	(wire
+		(pts
 			(xy 90.17 91.44) (xy 90.17 92.71)
 		)
 		(stroke
@@ -3546,6 +3553,26 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 107.95) (xy 243.84 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cab5b0ca-3039-400b-a48f-7c6d26a7418b")
+	)
+	(wire
+		(pts
+			(xy 243.84 113.03) (xy 233.68 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d18cc372-d54c-45b0-8e90-3a2058329977")
+	)
+	(wire
+		(pts
 			(xy 82.55 67.31) (xy 82.55 64.77)
 		)
 		(stroke
@@ -3593,28 +3620,6 @@
 			(type default)
 		)
 		(uuid "e4da19d3-6105-4a0e-be4b-7f9bb3ef97d1")
-	)
-	(global_label "F1_CS"
-		(shape input)
-		(at 80.01 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0a5e6dc7-7112-4588-81c0-cb5c34c74b2f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.2784 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "I2S_BCLK"
 		(shape input)
@@ -3726,6 +3731,28 @@
 			)
 		)
 	)
+	(global_label "QSPI_CS1"
+		(shape input)
+		(at 80.01 144.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0ed2e186-a27d-404a-aed9-07f612ccb8ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.0239 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "HSTX7"
 		(shape input)
 		(at 143.51 45.72 180)
@@ -3766,6 +3793,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C0_SDA"
+		(shape input)
+		(at 243.84 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2c0a028f-da68-4dad-9d69-de13d10164b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254.9788 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3893,6 +3942,28 @@
 		(uuid "487729d4-b767-4243-b239-8cec5b6ebd38")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 159.7288 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD_CS"
+		(shape input)
+		(at 148.59 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "512a5e2b-5d97-470e-bd0b-6394824a7330")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.3179 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4056,6 +4127,28 @@
 			)
 		)
 	)
+	(global_label "I2C0_SCL"
+		(shape input)
+		(at 243.84 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5ed3223d-f989-4c89-8b73-178e5f04392d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254.8299 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "???"
 		(shape input)
 		(at 148.59 149.86 0)
@@ -4122,6 +4215,28 @@
 			)
 		)
 	)
+	(global_label "SD_DETECT"
+		(shape input)
+		(at 148.59 111.76 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6060bc30-e273-4760-b3e7-acd4734c66a4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 160.3194 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2S_MCLK"
 		(shape input)
 		(at 168.91 55.88 0)
@@ -4162,50 +4277,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SD_DETECT"
-		(shape input)
-		(at 148.59 106.68 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6a49435f-d71d-4879-a9b2-22a0f8cf8d75")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.3194 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SD_CS"
-		(shape input)
-		(at 148.59 109.22 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6ba7c598-c9d2-402b-9512-e26d211f0363")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.3179 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -4272,28 +4343,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "F0_CS"
-		(shape input)
-		(at 52.07 125.73 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "75f45718-e7f9-405b-9206-121963c425c9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.8016 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -4562,28 +4611,6 @@
 			)
 		)
 	)
-	(global_label "F1_CS"
-		(shape input)
-		(at 52.07 130.81 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b105dc2c-3973-46e9-afe9-22f83c2b773f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.8016 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "HSTX1"
 		(shape input)
 		(at 143.51 60.96 180)
@@ -4694,6 +4721,28 @@
 			)
 		)
 	)
+	(global_label "QSPI_CS1"
+		(shape input)
+		(at 148.59 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bd8acf81-ae13-4b74-8f08-32ef8377088e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 159.5761 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI1_SCK"
 		(shape input)
 		(at 60.96 54.61 180)
@@ -4707,6 +4756,28 @@
 		(uuid "bf762872-c07f-4fcc-8a9f-d69385ba5f0f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 49.8262 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "QSPI_CS0"
+		(shape input)
+		(at 80.01 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2e156c9-26af-4bf4-9516-c5916139850c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.0239 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4870,50 +4941,6 @@
 			)
 		)
 	)
-	(global_label "ADC1"
-		(shape input)
-		(at 148.59 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d8153c2f-78fd-4ea9-8bf8-e1887ff58d2c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.4382 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "QSPI_CS"
-		(shape input)
-		(at 41.91 128.27 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dbeb2520-8590-453e-8c9e-234b835e348f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.1088 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "I2S_SDATA"
 		(shape input)
 		(at 168.91 48.26 0)
@@ -5002,6 +5029,28 @@
 			)
 		)
 	)
+	(global_label "QSPI_CS0"
+		(shape input)
+		(at 148.59 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e81fa936-60c5-48d8-a35f-e486c7d0a90d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 159.5761 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "HSTX6"
 		(shape input)
 		(at 148.59 139.7 0)
@@ -5015,28 +5064,6 @@
 		(uuid "ec9031c3-e00d-43a0-b86a-f0ccf416c897")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 156.174 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "QSPI_CS"
-		(shape input)
-		(at 148.59 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ef50d480-0d4d-4cea-8799-19075b05a24f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.3912 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5064,28 +5091,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "F0_CS"
-		(shape input)
-		(at 80.01 144.78 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f610ef32-e9aa-4df2-aece-82ddbe36dc6c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.2784 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -5566,6 +5571,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 223.52 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2cc1446b-3889-477f-8ae5-ac0da5168d5a")
+		(property "Reference" "#PWR025"
+			(at 227.33 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 219.71 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 223.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 223.52 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e159d739-ec8b-462e-94ac-9081e2e2f403")
+		)
+		(instances
+			(project "stereoMag"
+				(path "/24c2a0f2-f8b1-4719-8e97-d1615c6cc085"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 34.29 44.45 90)
 		(unit 1)
@@ -5658,7 +5730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_5x3"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 187.96 129.54 0)
 			(effects
 				(font
@@ -6164,6 +6236,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 233.68 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b871203-9ad3-44d3-b2b8-87d2c5528ab8")
+		(property "Reference" "#PWR024"
+			(at 233.68 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 233.68 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 233.68 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f973479-f92d-407b-8686-358ae982130e")
+		)
+		(instances
+			(project "stereoMag"
+				(path "/24c2a0f2-f8b1-4719-8e97-d1615c6cc085"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "SparkFun-Capacitor:0.1uF_0603_25V_20%")
 		(at 96.52 91.44 90)
 		(unit 1)
@@ -6611,7 +6749,7 @@
 	)
 	(symbol
 		(lib_id "Memory_NVRAM:FM24C64B")
-		(at 190.5 88.9 0)
+		(at 233.68 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6620,7 +6758,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e41e955-1a81-41f7-ae80-75159da7fec6")
 		(property "Reference" "U2"
-			(at 192.8272 78.74 0)
+			(at 236.0072 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6629,7 +6767,7 @@
 			)
 		)
 		(property "Value" "FM24C64B"
-			(at 192.8272 81.28 0)
+			(at 236.0072 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6638,7 +6776,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 190.5 77.47 0)
+			(at 233.68 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6647,7 +6785,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.cypress.com/file/41651/download"
-			(at 190.5 74.93 0)
+			(at 233.68 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6656,7 +6794,7 @@
 			)
 		)
 		(property "Description" "64Kb serial FRAM nonvolatile Memory, SOIC-8"
-			(at 190.5 88.9 0)
+			(at 233.68 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6830,94 +6968,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Memory_Flash:W25Q16JVSS")
-		(at 90.17 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75b0937d-7318-498f-ae06-31d4ac6e7a89")
-		(property "Reference" "U3"
-			(at 101.6 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "W25Q16JVSS"
-			(at 101.6 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
-			(at 90.17 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.winbond.com/hq/support/documentation/levelOne.jsp?__locale=en&DocNo=DA00-W25Q16JV.1"
-			(at 90.17 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "16Mbit / 2MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8 (208 mil)"
-			(at 90.17 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "f59c1c14-046f-4998-b3a0-183d86565de9")
-		)
-		(pin "3"
-			(uuid "2899fa04-c23b-44e4-92c8-ccb1ab6c7c04")
-		)
-		(pin "8"
-			(uuid "c1ebf8f1-cf02-43d7-8807-bf3549160d89")
-		)
-		(pin "2"
-			(uuid "48b38cd6-87e3-477e-8da8-f81335f3a477")
-		)
-		(pin "5"
-			(uuid "57fea890-31fd-411b-9f36-a6ea3835652c")
-		)
-		(pin "6"
-			(uuid "a23ef20f-9373-4430-b0dc-acfe5ac7a663")
-		)
-		(pin "1"
-			(uuid "fe5ff214-2c0c-4c46-8928-5ba6d071c448")
-		)
-		(pin "7"
-			(uuid "a6867503-f2f8-46de-b94c-bfc55eb27a6c")
-		)
-		(instances
-			(project "stereoMag"
-				(path "/24c2a0f2-f8b1-4719-8e97-d1615c6cc085"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 148.59 88.9 90)
 		(unit 1)
@@ -7012,7 +7062,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_5x3"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 198.12 129.54 0)
 			(effects
 				(font
@@ -7773,35 +7823,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Memory_Flash:W25Q16JVSS")
-		(at 90.17 152.4 0)
+		(lib_id "power:GND")
+		(at 233.68 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d78b0a81-cd7c-4c93-8935-dbc81982a36f")
-		(property "Reference" "U1"
-			(at 101.6 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "W25Q16JVSS"
-			(at 101.6 153.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
-			(at 90.17 152.4 0)
+		(uuid "da077a58-3109-4b58-8fc0-daad0832aec2")
+		(property "Reference" "#PWR023"
+			(at 233.68 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7809,8 +7841,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.winbond.com/hq/support/documentation/levelOne.jsp?__locale=en&DocNo=DA00-W25Q16JV.1"
-			(at 90.17 152.4 0)
+		(property "Value" "GND"
+			(at 233.68 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 233.68 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7818,8 +7858,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "16Mbit / 2MiB Serial Flash Memory, Standard/Dual/Quad SPI, 2.7-3.6V, SOIC-8 (208 mil)"
-			(at 90.17 152.4 0)
+		(property "Datasheet" ""
+			(at 233.68 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7827,34 +7867,22 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "552848bb-f1c7-46b7-b20c-0921bd1aba44")
-		)
-		(pin "3"
-			(uuid "a52d9d5a-d369-44d9-b3f7-baa5e9075019")
-		)
-		(pin "8"
-			(uuid "e1c6be40-e06b-431d-a63a-2804a09ca098")
-		)
-		(pin "2"
-			(uuid "a48a125c-cc18-4a17-9bd5-bda08212c873")
-		)
-		(pin "5"
-			(uuid "741f6efb-21b6-46d6-bfe7-c52de02f9d36")
-		)
-		(pin "6"
-			(uuid "5d622d59-7c43-4961-836e-249b0929a7fa")
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 233.68 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "3ae4421d-c661-41d5-8288-296bf2fda2b5")
-		)
-		(pin "7"
-			(uuid "67dd6b84-863b-4760-993b-1eba877d7e6a")
+			(uuid "d97bb6d7-991e-4909-852f-0f25d11791a5")
 		)
 		(instances
-			(project ""
+			(project "stereoMag"
 				(path "/24c2a0f2-f8b1-4719-8e97-d1615c6cc085"
-					(reference "U1")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -8170,107 +8198,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Switch:SPDT_Slide_SMD_6.7x2.6mm")
-		(at 46.99 128.27 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1af3b54-3f56-4df6-8b8e-9005409fac0a")
-		(property "Reference" "SW1"
-			(at 46.99 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SPDT_Slide_SMD_6.7x2.6mm"
-			(at 46.99 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SparkFun-Switch:Slide_SPST_SMD_6.7x2.6mm"
-			(at 46.99 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cus.pdf"
-			(at 46.99 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switch, single pole double throw"
-			(at 46.99 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "PROD_ID" "SWCH-10651"
-			(at 46.99 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mrg Part#" "CUS-12B"
-			(at 46.99 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "MT2"
-			(uuid "5836af0e-8e5f-4fe7-82d9-d51de0ed2d4a")
-		)
-		(pin "MT1"
-			(uuid "7bf7f8fc-247c-4386-a4e9-3d1b7def112f")
-		)
-		(pin "MT4"
-			(uuid "6d4a0f77-493c-4b80-87fc-77cb3b7eacfc")
-		)
-		(pin "2"
-			(uuid "b19acec1-93c9-4017-aa83-390483f05bb4")
-		)
-		(pin "MT3"
-			(uuid "8c7e960b-32ae-4bd2-b90b-2d8d94048578")
-		)
-		(pin "3"
-			(uuid "49a89202-79a3-455c-a045-d27d2c943376")
-		)
-		(pin "1"
-			(uuid "039c4128-a3fb-483d-bd0c-fd805bd51e29")
-		)
-		(instances
-			(project ""
-				(path "/24c2a0f2-f8b1-4719-8e97-d1615c6cc085"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 148.59 167.64 90)
 		(unit 1)
@@ -8332,6 +8259,182 @@
 			(project "stereoMag"
 				(path "/24c2a0f2-f8b1-4719-8e97-d1615c6cc085"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Memory_RAM:APS1604M-3SQRx-SN")
+		(at 90.17 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f925b4d0-d06e-4769-8fcf-b0f9dd448664")
+		(property "Reference" "U4"
+			(at 99.06 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PSRAM"
+			(at 99.06 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 90.17 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.com/datasheet/2/1127/APM_PSRAM_QSPI_APS1604M_3SQR_v2_7_PKG-1954896.pdf"
+			(at 90.17 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "16 Mbit / 2M x 8-bits serial pseudo SRAM MEMORY, up to 133MHz, 2.7-3.6V supply, SOIC-8 (SOP-8)"
+			(at 90.17 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "7ff4774d-fe5d-4d85-98e6-b990649374d1")
+		)
+		(pin "3"
+			(uuid "8d94e9c1-39c9-4bdb-b2d5-3cdacbf96c86")
+		)
+		(pin "1"
+			(uuid "2f3713a1-2016-4f5c-b791-2b7a2489a1ef")
+		)
+		(pin "8"
+			(uuid "0a337316-cb8c-44b9-b394-11be21445328")
+		)
+		(pin "2"
+			(uuid "e79c71b2-cba7-4f5f-97c9-236102ca2a21")
+		)
+		(pin "6"
+			(uuid "f5af9ce4-22f7-4324-a284-953f0b9969da")
+		)
+		(pin "4"
+			(uuid "58d6e321-2f53-4326-a157-59e3ee72e35e")
+		)
+		(pin "5"
+			(uuid "79a51124-eac4-45a9-b4bc-916c5a4e8c94")
+		)
+		(instances
+			(project ""
+				(path "/24c2a0f2-f8b1-4719-8e97-d1615c6cc085"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Memory_Flash:AT25SF081-SSHD-X")
+		(at 90.17 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe6821d9-da72-40ec-ad82-38291e06d5f3")
+		(property "Reference" "U1"
+			(at 99.06 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "FLASH"
+			(at 99.06 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 90.17 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.adestotech.com/wp-content/uploads/DS-AT25SF081_045.pdf"
+			(at 90.17 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "8-Mbit, 2.5V Minimum SPI Serial Flash Memory with Dual-I/O and Quad-I/O Support, SOIC-8"
+			(at 90.17 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "89f36866-6bea-4096-b4d8-549a4b455c81")
+		)
+		(pin "3"
+			(uuid "0f77885d-3325-43b4-a653-0b6f48ce32b2")
+		)
+		(pin "2"
+			(uuid "a2a6e8ad-e7b9-46e7-af9a-1beeee34c172")
+		)
+		(pin "8"
+			(uuid "2149e999-5f54-471b-bfee-266781c771d0")
+		)
+		(pin "7"
+			(uuid "420f8806-2098-4f0f-8e0b-a8ccd68ec9db")
+		)
+		(pin "5"
+			(uuid "1bec466d-718c-42e5-9489-d18e62638afd")
+		)
+		(pin "4"
+			(uuid "ecc39098-ccb4-433b-89d2-70deb6908325")
+		)
+		(pin "1"
+			(uuid "70c2cc43-faea-4d31-92bb-1c216b39edbf")
+		)
+		(instances
+			(project "stereoMag"
+				(path "/24c2a0f2-f8b1-4719-8e97-d1615c6cc085"
+					(reference "U1")
 					(unit 1)
 				)
 			)
