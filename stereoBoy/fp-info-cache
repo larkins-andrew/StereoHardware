@@ -1,4 +1,4 @@
-27845980939534586
+27872536688508348
 1.54_IPS_LCD_Adafruit
 1.54_IPS_FPC_Solder
 
@@ -2897,6 +2897,13 @@ speaker CUI
 0
 2
 2
+CREE_LED_2mm_x_2mm_Common_Anode
+CREE_LED_2mm_x_2mm_Common_Anode
+
+
+0
+4
+4
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -70700,12 +70707,26 @@ LM3671
 5
 5
 MIN_WORKS
+0.78_OLED
+
+
+0
+19
+18
+MIN_WORKS
 GBP_Power_Switch
 
 
 0
 6
 6
+MIN_WORKS
+Untitled
+
+
+0
+0
+0
 MS621FE_FL11E
 MS621FE_FL11E
 
@@ -74857,6 +74878,34 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PCM2707PJTR
+PJT32_TEX
+
+PCM2707PJTR 
+0
+32
+32
+PCM2707PJTR
+PJT32_TEX-L
+
+PCM2707PJTR 
+0
+32
+32
+PCM2707PJTR
+PJT32_TEX-M
+
+PCM2707PJTR 
+0
+32
+32
+PCM5242RHBR
+PCM5242RHBR
+
+PCM5242RHBR 
+0
+49
+34
 Package_BGA
 Alliance_TFBGA-36_6x8mm_Layout6x8_P0.75mm
 Alliance TFBGA-36, NSMD, 6.0x8.0mm, 36 Ball, 6x8 Layout, 0.75mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1008_Mar_2023V1.2.pdf#page=13
@@ -95094,6 +95143,13 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
+RK10J11R0A0L
+RK10J11R0A0L
+RK10J11R0A0L-2
+Variable Resistor
+0
+9
+9
 Relay_SMD
 Relay_2P2T_10x6mm_TE_IMxxG
 Signal Relay, 10x6mm, 2 Form C, Gull Wings, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F108-98001%7FZ.1%7Fpdf%7FEnglish%7FENG_DS_108-98001_Z.1.pdf
@@ -103529,6 +103585,13 @@ Logo WEEE
 0
 0
 0
+TLV320DAC3100
+TLV320DAC3100
+
+
+0
+38
+38
 TPS61030RSAR
 TPS61030RSAR
 
@@ -110533,6 +110596,48 @@ Varistor
 Varistor_Panasonic_VF
 Panasonic VF series varistor, 6x8mm body, 3.2mm height, https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/cdbs/www-data/pdf/AWA0000/AWA0000C4.pdf
 Varistor VF
+0
+2
+2
+Worthington_Assembly
+WAi_0201_0603Metric
+
+
+0
+2
+2
+Worthington_Assembly
+WAi_0402_1005Metric
+
+
+0
+2
+2
+Worthington_Assembly
+WAi_0603_1608Metric
+
+
+0
+2
+2
+Worthington_Assembly
+WAi_0805_2012Metric
+
+
+0
+2
+2
+Worthington_Assembly
+WAi_01005_0402Metric
+
+
+0
+2
+2
+Worthington_Assembly
+WAi_008004_0201Metric
+
+
 0
 2
 2
